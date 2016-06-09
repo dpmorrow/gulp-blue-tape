@@ -1,6 +1,6 @@
-# gulp-tape [![npm Version](http://img.shields.io/npm/v/gulp-tape.svg?style=flat)](https://www.npmjs.org/package/gulp-tape) [![Build Status](https://img.shields.io/travis/yuanqing/gulp-tape.svg?style=flat)](https://travis-ci.org/yuanqing/gulp-tape)
+# gulp-blue-tape [![npm Version](http://img.shields.io/npm/v/gulp-blue-tape.svg?style=flat)](https://www.npmjs.org/package/gulp-blue-tape) [![Build Status](https://img.shields.io/travis/yuanqing/gulp-blue-tape.svg?style=flat)](https://travis-ci.org/yuanqing/gulp-blue-tape)
 
-> Run [Tape](https://github.com/substack/tape) tests in [Gulp](http://gulpjs.com/).
+> Run [Blue-Tape](https://github.com/spion/blue-tape) tests in [Gulp](http://gulpjs.com/).
 
 ## Usage
 
@@ -8,7 +8,7 @@
 'use strict';
 
 var gulp = require('gulp');
-var tape = require('gulp-tape');
+var tape = require('gulp-blue-tape');
 var tapColorize = require('tap-colorize');
 
 gulp.task('test', function() {
@@ -22,7 +22,7 @@ gulp.task('test', function() {
 ## API
 
 ```js
-var tape = require('gulp-tape');
+var tape = require('gulp-blue-tape');
 ```
 
 ### tape([opts])
@@ -39,10 +39,10 @@ var tape = require('gulp-tape');
 
 ## Installation
 
-Install via [npm](https://npmjs.com/) (together with [Tape](https://github.com/substack/tape)):
+Install via [npm](https://npmjs.com/) (together with [Blue Tape](https://github.com/spion/blue-tape)):
 
 ```
-$ npm install --save-dev gulp-tape tape
+$ npm install --save-dev gulp-blue-tape blue-tape
 ```
 
 ## License

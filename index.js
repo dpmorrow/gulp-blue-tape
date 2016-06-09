@@ -5,7 +5,7 @@ var through = require('through2');
 var PluginError = require('gulp-util').PluginError;
 var requireUncached = require('require-uncached');
 
-var PLUGIN_NAME = 'gulp-tape';
+var PLUGIN_NAME = 'gulp-blue-tape';
 
 var gulpTape = function(opts) {
   opts = opts || {};

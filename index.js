@@ -1,6 +1,6 @@
 'use strict';
 
-var tape = require('tape');
+var tape = require('blue-tape');
 var through = require('through2');
 var PluginError = require('gulp-util').PluginError;
 var requireUncached = require('require-uncached');

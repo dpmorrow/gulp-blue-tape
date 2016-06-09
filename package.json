@@ -1,12 +1,12 @@
 {
-  "name": "gulp-tape",
+  "name": "gulp-blue-tape",
   "version": "0.0.9",
-  "description": "Run Tape tests in Gulp.",
-  "author": "Lim Yuan Qing",
+  "description": "Run Blue Tape tests in Gulp.",
+  "author": "Douglas Morrow",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yuanqing/gulp-tape.git"
+    "url": "https://github.com/dpmorrow/gulp-blue-tape.git"
   },
   "dependencies": {
     "gulp-util": "^3.0.7",
@@ -18,11 +18,11 @@
     "gulp-istanbul": "^0.10.2",
     "gulp-util": "^3.0.7",
     "jshint": "^2.8.0",
-    "tape": "*",
+    "blue-tape": "*",
     "tap-colorize": "^1.2.0"
   },
   "peerDependencies": {
-    "tape": "*"
+    "blue-tape": "*"
   },
   "scripts": {
     "build": "npm run lint && npm test",
@@ -32,6 +32,7 @@
   "keywords": [
     "gulpplugin",
     "tape",
+    "blue-tape",
     "test"
   ]
 }

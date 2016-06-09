@@ -1,6 +1,6 @@
 'use strict';
 
-var test = require('tape');
+var test = require('blue-tape');
 var abs = require('../');
 
 test('negative', function(t) {

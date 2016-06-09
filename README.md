@@ -1,4 +1,4 @@
-# gulp-blue-tape [![npm Version](http://img.shields.io/npm/v/gulp-blue-tape.svg?style=flat)](https://www.npmjs.org/package/gulp-blue-tape) [![Build Status](https://img.shields.io/travis/yuanqing/gulp-blue-tape.svg?style=flat)](https://travis-ci.org/yuanqing/gulp-blue-tape)
+# gulp-blue-tape [![npm Version](http://img.shields.io/npm/v/gulp-blue-tape.svg?style=flat)](https://www.npmjs.org/package/gulp-blue-tape) [![Build Status](https://img.shields.io/travis/dpmorrow/gulp-blue-tape.svg?style=flat)](https://travis-ci.org/dpmorrow/gulp-blue-tape)
 
 > Run [Blue-Tape](https://github.com/spion/blue-tape) tests in [Gulp](http://gulpjs.com/).
 
